@@ -6,182 +6,196 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header class="header">
-      <a href="/" class="logo">
-        <img src="" alt="Logo" class="logo__img">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">Главная</li>
-          <li class="menu__item">Игры</li>
-          <li class="menu__item">Отзывы</li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        <div class="contacts__workhours">График работы</div>
-      </address>
-    </header>
-    <main class="main">
-      <div class="main-text">
-        <h1 class="main-text__title">Интеллектуальный вечер для шумной компании</h1>
-        <div class="main-text__subtitle">Игры на любой вкус</div>
-        <button class="button">
-          <a href="#" class="button__more">Подробнее</a>
-        </button>
+    <section class="section">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="./img/logo.svg" alt="Logo" class="logo__img">
+          </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+            <adress class="contacts">
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__dropdown-title">График работы</div>
+            </adress>
+        </header>
+        <div class="hero__content">
+          <div class="hero__text-section">
+            <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
+            <h4 class="hero__subtitle">Игры на любой вкус</h4>
+            <a href="#" class="btn">Подробнее</a>
+          </div>
+        </div>
       </div>
-      <div class="new">
+    </section>
+    <section class="section">
+      <div class="container">
         <div class="new-title">
           <h2 class="new-title__text">Новинки недели</h2>
-          <img src="" alt="new" class="new-title__img">
+          <img src="./img/new.png" alt="new" class="new__title-logo">
         </div>
-        <div class="content">
-          <div class="music">
-            <img src="" alt="music" class="music__img">
-            <div class="music-content">
-              <h3 class="music-content__title">Музыкальная игра</h3>
-              <div class="music-subtitle">
-                <div class="time">
-                  <img src="" alt="time" class="time__image">
-                  <div class="time__text">90 минут</div>
+        <ul class="games">
+          <li class="games__item">
+            <div class="games__header">
+              <img src="./img/music.png" alt="music" class="games__header-img">
+            </div>
+            <div class="games__content">
+              <h3 class="games__title">Музыкальная игра</h3>
+              <div class="games__subtitle">
+                <div class="games__time">
+                  <img src="./img/clock.svg" alt="clock" class="games__time-img">
+                  <div class="games__time-desc">90 минут</div>
                 </div>
-                <div class="questions">
-                  <img src="" alt="questions" class="questions__img">
-                  <div class="questions__text">70 вопросов</div>
+                <div class="games__question">
+                  <img src="./img/qa.svg" alt="qa" class="games__question-img">
+                  <div class="games__question-desc">70 вопросов</div>
                 </div>
               </div>
-              <p class="music-subtitle__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                значение систем
-                массового участия.</p>
-              <button class="button">
-                <a href="#" class="button__watch">Смотреть</a>
-              </button>
+              <p class="games__ph">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+              <a href="#" class="btn btn--color--violet">Смотреть</a>
             </div>
-          </div>
-          <div class="ninety">
-            <img src="" alt="ninety" class="ninety__img">
-            <div class="ninety-content">
-              <h3 class="ninety-content__title">Музыкальная игра</h3>
-              <div class="ninety-subtitle">
-                <div class="time">
-                  <img src="" alt="time" class="time__image">
-                  <div class="time__text">90 минут</div>
+          </li>
+          <li class="games__item">
+            <div class="games__header">
+              <img src="./img/90.png" alt="90" class="games__header-img">
+            </div>
+            <div class="games__content">
+              <h3 class="games__title">Назад в 90-е</h3>
+              <div class="games__subtitle">
+                <div class="games__time">
+                  <img src="./img/clock.svg" alt="clock" class="games__time-img">
+                  <div class="games__time-desc">90 минут</div>
                 </div>
-                <div class="questions">
-                  <img src="" alt="questions" class="questions__img">
-                  <div class="questions__text">70 вопросов</div>
+                <div class="games__question">
+                  <img src="./img/qa.svg" alt="qa" class="games__question-img">
+                  <div class="games__question-desc">70 вопросов</div>
                 </div>
               </div>
-              <p class="ninety-subtitle__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                значение систем
-                массового участия.</p>
-              <button class="button">
-                <a href="#" class="button__watch">Смотреть</a>
-              </button>
+              <p class="games__ph">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+              <a href="#" class="btn btn--color--violet">Смотреть</a>
             </div>
-          </div>
-          <div class="quizit">
-            <img src="" alt="quizit" class="quizit__img">
-            <div class="quizit-content">
-              <h3 class="quizit-content__title">Музыкальная игра</h3>
-              <div class="quizit-subtitle">
-                <div class="time">
-                  <img src="" alt="time" class="time__image">
-                  <div class="time__text">90 минут</div>
+          </li>
+          <li class="games__item">
+            <div class="games__header">
+              <img src="./img/IT.png" alt="it" class="games__header-img">
+            </div>
+            <div class="games__content">
+              <h3 class="games__title">IT-викторина</h3>
+              <div class="games__subtitle">
+                <div class="games__time">
+                  <img src="./img/clock.svg" alt="clock" class="games__time-img">
+                  <div class="games__time-desc">90 минут</div>
                 </div>
-                <div class="questions">
-                  <img src="" alt="questions" class="questions__img">
-                  <div class="questions__text">70 вопросов</div>
+                <div class="games__question">
+                  <img src="./img/qa.svg" alt="qa" class="games__question-img">
+                  <div class="games__question-desc">70 вопросов</div>
                 </div>
               </div>
-              <p class="quizit-subtitle__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                значение систем
-                массового участия.</p>
-              <button class="button">
-                <a href="#" class="button__watch">Смотреть</a>
-              </button>
+              <p class="games__ph">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+              <a href="#" class="btn btn--color--violet">Смотреть</a>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
-      <div class="games">
-        <h2 class="games__title">Прошедшие игры</h2>
-        <div class="games-main">
-          <div class="games-content">
-            <img src="" alt="games" class="games-content__img">
-            <div class="games-content-main">
-              <div class="games-content-main__date">1 января</div>
-              <h3 class="games-content-main__title">Новогодний квиз</h3>
-              <p class="games-content-main__subtitle">Успевайте забронировать даты. Пока еще есть места на декабрь.
-                Удачи и
-                всех благ!</p>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Прошедшие игры</h2>
+        <ul class="pastgame">
+          <li class="pastgame__item">
+            <img src="./img/games-1.png" alt="games-1" class="pastgame__cover">
+            <div class="pastgame__text">
+              <div class="pastgame__date">1 января</div>
+              <div class="pastgame__title">Новогодний квиз</div>
+              <div class="pastgame__subtitle">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
             </div>
-          </div>
-          <div class="games-content">
-            <img src="" alt="games" class="games-content__img">
-            <div class="games-content-main">
-              <div class="games-content-main__date">8 марта</div>
-              <h3 class="games-content-main__title">Весенний квиз</h3>
-              <p class="games-content-main__subtitle">Успевайте забронировать даты. Пока еще есть места на декабрь.
-                Удачи и
-                всех благ!</p>
+          </li>
+          <li class="pastgame__item">
+            <img src="./img/games-2.png" alt="games-1" class="pastgame__cover">
+            <div class="pastgame__text">
+              <div class="pastgame__date">8 марта</div>
+              <div class="pastgame__title">Весенний игра</div>
+              <div class="pastgame__subtitle">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!</div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
-          <a href="" class="paginator__prev"><</a>
-            <ul class="paginator__list">
-              <li class="paginator__item">1</li>
-              <li class="paginator__item">2</li>
-              <li class="paginator__item">3</li>
-              <li class="paginator__item">4</li>
-              <li class="paginator__item">5</li>
-              <li class="paginator__item">6</li>
-              <li class="paginator__item">7</li>
+             <ul class="paginator__list">
+              <li class="paginator__item"><a href="#" class="paginator__link">1</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+              <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
             </ul>
-          <a href="" class="paginator__next">></a>
         </div>
       </div>
-      <div class="about">
-        <img src="" alt="about" class="about__img">
-        <div class="about-content">
-          <h2 class="about-content__title">О нас</h2>
-          <P class="about-content__subtitle">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-            несколько
-            абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
-            публичных выступлений в домашних условиях. </P>
-          <button class="button">
-            <a href="" class="button__about">Подробнее</a>
-          </button>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="about">
+          <div class="about__desc">
+            <h2 class="about__title">О нас</h2>
+            <div class="about__desc-text">
+              <p>
+                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+              </p>
+            </div>
+            <a href="#" class="btn btn--color--white">Подробнее</a>
+          </div>
         </div>
       </div>
-    </main>
-    <footer class="footer">
-      <a href="#" class="logo">
-        <img src="" alt="Logo" class="logo__img">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">Главная</li>
-          <li class="menu__item">Игры</li>
-          <li class="menu__item">Отзывы</li>
-        </ul>
-      </nav>
-      <div class="social">
-        <img src="" alt="Telegram" class="social__img">
-        <img src="" alt="Vkontakte" class="social__img">
-        <img src="" alt="Facebook" class="social__img">
-        <img src="" alt="Instagram" class="social__img">
+    </section>
+    <footer class="footer-container">
+      <div class="container footer-container__content">
+        <div class="footer">
+          <a href="#" class="logo">
+            <img src="./img/logo.svg" alt="Logo" class="logo__img">
+          </a>
+            <nav class="menu menu--footer">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Игры</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+            <ul class="socials">
+              <li class="socials__item socials__item--icon--telegram">
+                <a href="#" class="socials__link"></a>
+              </li>
+              <li class="socials__item socials__item--icon--vk">
+                <a href="#" class="socials__link"></a>
+              </li>
+              <li class="socials__item socials__item--icon--facebook">
+                <a href="#" class="socials__link"></a>
+              </li>
+              <li class="socials__item socials__item--icon--instagram">
+                <a href="#" class="socials__link"></a>
+              </li>
+            </ul>
+            <adress class="contacts">
+              <div class="contacts__desc">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            </adress>
+        </div>
       </div>
-      <address class="contacts">
-        <div class="contacts__text">Бесплатный звонок по России</div>
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-      </address>
     </footer>
   </div>
 </body>

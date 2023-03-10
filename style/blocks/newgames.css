@@ -1,0 +1,100 @@
+.newgames {
+  margin-bottom: 127px;
+}
+
+.btn--color--violet {
+  background: #FFFFFF;
+  color: #8F00FF;
+  border: 1px solid #8F00FF;
+  width: 136px;
+  padding: 18px 30px;
+}
+
+.btn--color--violet:hover {
+  background: #8F00FF;
+  color: #fff
+}
+
+.section {
+  margin-bottom: 125px;
+}
+
+.new-title {
+  margin-bottom: 50px;
+}
+
+.new-title__text {
+  display: inline;
+  font-size: 36px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.new__title-logo {
+  display: inline;
+}
+
+
+.games__item {
+  display: inline-block;
+  min-height: 450px;
+  width: 362px;
+  background: #fff;
+  border-radius: 5px;
+  margin-right: 22px;
+}
+
+.games__item:last-child {
+  margin-right: 0;
+}
+
+.games__header {
+  min-height: 144px;
+  margin-bottom: 33px;
+}
+
+.games__content {
+  padding: 0 22px 26px;
+  color: #303030;
+}
+
+.games__title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.games__subtitle {
+  margin-bottom: 26px;
+}
+
+.games__time, .games__question {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.games__time-desc, .games__question-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+}
+
+.games__time-desc {
+  margin-left: 5px;
+}
+
+.games__time-img, .games__question-img, .games__time-desc, .games__question-desc {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.games__time {
+  margin-right: 62px;
+}
+
+.games__ph {
+  width: 324px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+  margin-bottom: 27px;
+}

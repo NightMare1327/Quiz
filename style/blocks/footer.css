@@ -5,13 +5,12 @@
 }
 
 .menu--footer {
-  left: 286px;
+  margin-left: 130px;
 }
 
 .socials {
-  position: absolute;
-  right: 263px;
-  top: 32px;
+  display: inline-block;
+  margin-left: 105px;
 }
 
 .socials__item {

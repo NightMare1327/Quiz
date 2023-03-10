@@ -1,6 +1,7 @@
 @import url(./blocks/base.css);
 @import url(./blocks/header.css);
-@import url(./blocks/games.css);
-@import url(./blocks/pastgame.css);
+@import url(./blocks/hero.css);
+@import url(./blocks/newgames.css);
+@import url(./blocks/pastgames.css);
 @import url(./blocks/about.css);
 @import url(./blocks/footer.css);

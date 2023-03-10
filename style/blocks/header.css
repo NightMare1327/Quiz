@@ -4,30 +4,30 @@
   margin-bottom: 125px;
 }
 
-.logo {
-  display: block;
-  position: absolute;
-  top: 33px;
-  left: 0;
+.logo,
+.menu,
+.menu__item,
+.contacts {
+  display: inline-block;
 }
 
-.menu {
-  position: absolute;
-  top: 35px;
-  left: 418px;
+.logo {
+  float: left;
+  margin-top: 34px;
 }
 
 .contacts {
-  position: absolute;
+  float: right;
   text-align: right;
-  top: 27px;
-  right: 0;
+  margin-top: 27px;
 }
 
+.menu {
+  margin-top: 34px;
+  margin-left: 264px;
+}
 .menu__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 63px;
+  margin-right: 62px;
 }
 
 .menu__item:last-child {
@@ -44,40 +44,7 @@
 
 .contacts__phone {
   font-size: 26px;
-  margin-bottom: 1px;
 }
 .contacts__dropdown-title {
   font-size: 13px;
-}
-
-.hero__content {
-  margin-bottom: 190px;
-}
-.hero__text-section {
-  width: 640px;
-}
-
-.hero__title {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  line-height: 1.1;
-}
-
-.hero__subtitle {
-  font-size: 21px;
-  margin-bottom: 75px;
-}
-
-.btn {
-  display: inline-block;
-  background: #8F00FF;
-  border-radius: 5px;
-  padding: 18px 40px;
-  width: 168px;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
 }

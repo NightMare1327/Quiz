@@ -2,6 +2,17 @@
   margin-bottom: 127px;
 }
 
+.title--icon::after {
+  content: "";
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  background: url(../../img/new.svg) center center / cover no-repeat;
+  margin-left: 10px;
+  vertical-align: middle
+}
+
+
 .btn--color--violet {
   background: #FFFFFF;
   color: #8F00FF;
@@ -15,26 +26,7 @@
   color: #fff
 }
 
-.section {
-  margin-bottom: 125px;
-}
-
-.new-title {
-  margin-bottom: 50px;
-}
-
-.new-title__text {
-  display: inline;
-  font-size: 36px;
-  font-weight: 700;
-  margin-right: 10px;
-}
-.new__title-logo {
-  display: inline;
-}
-
-
-.games__item {
+.newgames__item {
   display: inline-block;
   min-height: 450px;
   width: 362px;
@@ -43,58 +35,53 @@
   margin-right: 22px;
 }
 
-.games__item:last-child {
+.newgames__item:last-child {
   margin-right: 0;
 }
 
-.games__header {
+.newgames__header {
   min-height: 144px;
   margin-bottom: 33px;
 }
 
-.games__content {
-  padding: 0 22px 26px;
+.newgames__content {
+  padding: 0 20px 15px;
   color: #303030;
 }
 
-.games__title {
+.newgames__list-sub {
+  margin-bottom: 20px;
+}
+
+.newgames__item-sub {
+  display: inline-block;
+  margin-right: 54px;
+}
+
+.newgames__item-sub:last-child {
+  margin-right: 0;
+}
+.newgames__img {
+  float: left;
+  margin-right: 10px;
+}
+.newgames__text {
+  float: right;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666;
+}
+.newgames__title {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 22px;
 }
 
-.games__subtitle {
-  margin-bottom: 26px;
-}
-
-.games__time, .games__question {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.games__time-desc, .games__question-desc {
-  font-weight: 400;
-  font-size: 16px;
-  color: #666;
-}
-
-.games__time-desc {
-  margin-left: 5px;
-}
-
-.games__time-img, .games__question-img, .games__time-desc, .games__question-desc {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.games__time {
-  margin-right: 62px;
-}
-
-.games__ph {
+.newgames__ph {
   width: 324px;
   font-weight: 400;
   font-size: 14px;
   color: #303030;
-  margin-bottom: 27px;
+  margin-bottom: 24px;
+  line-height: 21px;
 }

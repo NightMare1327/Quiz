@@ -1,16 +1,15 @@
 .hero {
   margin-bottom: 193px;
 }
+
 .hero__content {
   margin-bottom: 190px;
-}
-.hero__text-section {
-  width: 640px;
 }
 
 .hero__title {
   font-size: 60px;
   font-weight: 700;
+  width: 640px;
   margin-bottom: 20px;
   line-height: 1.1;
 }

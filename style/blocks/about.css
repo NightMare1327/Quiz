@@ -2,35 +2,31 @@
   margin-bottom: 55px;
 }
 
-
 .btn--color--white {
   background-color: transparent;
   color: #FFFFFF;
   border: 1px solid #FFFFFF
 }
 
-.about-content::before, .about__desc {
-  display: inline-block;
-  vertical-align: top;
+.about-content {
+  position: relative;
 }
 
-.about-content::before {
-  content: "";
-  height: 505px;
-  width: 489px;
-  background: url(../../img/about.png) center center / cover no-repeat;
+.about__img{
+  position: absolute;
+  bottom: 47px;
 }
 
 .about__desc {
+  position: relative;
   background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
   border-radius: 5px;
-  padding: 70px 80px;
+  padding: 60px 80px;
   width: 785px;
-  margin-left: -139px;
-  margin-top: 97px;
+  margin-left: 355px;
 }
 
-.about__title {
+.title--light {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 37px;

@@ -1,33 +1,9 @@
 .footer {
-  margin-top: 20px;
   height: 130px;
-  position: relative;
 }
 
 .menu--footer {
-  margin-left: 130px;
-}
-
-.socials {
-  display: inline-block;
-  margin-left: 105px;
-}
-
-.socials__item {
-display: inline-block;
-vertical-align: middle;
-margin-right: 10px;
-}
-
-.socials__item:last-child {
-  margin-right: 0;
-}
-
-.socials__link {
-  display: block;
-  width: 36px;
-  height: 36px;
-  background: center center no-repeat;
+  margin-left: 55px;
 }
 
 .contacts__desc {
@@ -36,6 +12,9 @@ margin-right: 10px;
   color: #9A9A9A;
 }
 
-.footer-container {
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

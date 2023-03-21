@@ -1,50 +1,10 @@
 .header {
-  height: 80px;
-  position: relative;
-  margin-bottom: 125px;
+  padding-top: 34px;
+  margin-bottom: 135px;
 }
 
-.logo,
-.menu,
-.menu__item,
-.contacts {
-  display: inline-block;
-}
-
-.logo {
-  float: left;
-  margin-top: 34px;
-}
-
-.contacts {
-  float: right;
-  text-align: right;
-  margin-top: 27px;
-}
-
-.menu {
-  margin-top: 34px;
-  margin-left: 264px;
-}
-.menu__item {
-  margin-right: 62px;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__link {
-  font-size: 16px;
-}
-
-.menu__link:hover {
-  color: #8F00FF;
-}
-
-.contacts__phone {
-  font-size: 26px;
-}
-.contacts__dropdown-title {
-  font-size: 13px;
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -3,18 +3,20 @@
 }
 
 .pastgames__list {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 53px;
 }
 .pastgames__item {
   width: 557px;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin-right: 21px;
 }
 
 .pastgames__item:last-child {
   margin-right: 0;
+}
+
+.single-pastgames {
+  position: relative;
 }
 
 .pastgames__cover {
@@ -24,54 +26,29 @@
   object-fit: cover;
 }
 
-.pastgames__text {
+.single-pastgames__text {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   padding: 0 30px 25px;
-  min-height: 120px;
+  min-height: 138px;
 }
 
-.pastgames__date {
+.single-pastgames__date {
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   text-transform: lowercase;
 }
 
-.pastgames__title {
+.single-pastgames__title {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 
-.paginator {
-  text-align: center;
-}
-
-.paginator__display, .paginator__list {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.paginator__display {
-  margin-right: 25px;
-}
-
-.paginator__item {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.paginator__link {
-  display: block;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  font-weight: 700;
-  line-height: 32px;
-}
-
-.paginator__link:hover {
-  background: #8F00FF;
+.single-pastgames__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }

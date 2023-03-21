@@ -18,16 +18,3 @@
   font-size: 21px;
   margin-bottom: 75px;
 }
-
-.btn {
-  display: inline-block;
-  background: #8F00FF;
-  border-radius: 5px;
-  padding: 18px 40px;
-  width: 168px;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-}

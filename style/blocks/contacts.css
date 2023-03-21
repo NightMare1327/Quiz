@@ -1,0 +1,11 @@
+.contacts {
+  text-align: right;
+}
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+}

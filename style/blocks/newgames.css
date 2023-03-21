@@ -26,13 +26,16 @@
   color: #fff
 }
 
+.newgames__list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .newgames__item {
-  display: inline-block;
   min-height: 450px;
-  width: 362px;
+  width: calc(100% / 3 - 19px);
   background: #fff;
   border-radius: 5px;
-  margin-right: 22px;
 }
 
 .newgames__item:last-child {
@@ -50,23 +53,23 @@
 }
 
 .newgames__list-sub {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
 }
 
 .newgames__item-sub {
-  display: inline-block;
-  margin-right: 54px;
+  display: flex;
+  align-items: center;
 }
 
 .newgames__item-sub:last-child {
   margin-right: 0;
 }
 .newgames__img {
-  float: left;
   margin-right: 10px;
 }
 .newgames__text {
-  float: right;
   font-weight: 400;
   font-size: 16px;
   color: #666;

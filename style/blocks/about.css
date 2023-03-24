@@ -2,12 +2,6 @@
   margin-bottom: 55px;
 }
 
-.btn--color--white {
-  background-color: transparent;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF
-}
-
 .about-content {
   position: relative;
 }

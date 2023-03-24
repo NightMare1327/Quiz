@@ -1,0 +1,91 @@
+.inner-section--review {
+  padding: 62px 0 98px;
+}
+
+.inner-section__title--review {
+  margin-bottom: 57px;
+}
+
+.form__row {
+  display: flex;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 30px;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.form__input:focus {
+  border: 1px solid #8F00FF;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input--textarea {
+  height: 235px;
+  resize: none; 
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__controls-title {
+  width: 39%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 9px;
+  margin-right: 17px;
+}
+
+.controls__item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 17px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}

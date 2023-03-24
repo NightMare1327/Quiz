@@ -7,5 +7,45 @@
 }
 
 .contacts__dropdown-title {
+  position: relative;
   font-size: 13px;
+}
+
+.contacts__dropdown-menu {
+  position: absolute;
+  top: 90px;
+  right: 382px;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 20px 17px;
+  background: #EDEDED;
+  color: #1E1F20;
+  font-size: 13px;
+  line-height: 21px;
+  border-radius: 5px;
+  text-align: start;
+}
+
+.contacts__dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  height: 0;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid #EDEDED;
+}
+
+.contacts__dropdown-title:hover ~ .contacts__dropdown-menu {
+  opacity: 1;
+}
+
+.contacts__dropdown-up {
+  font-weight: 700;
+}
+
+.contacts__dropdown-down {
+  font-weight: 600;
 }
